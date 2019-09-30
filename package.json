@@ -86,15 +86,14 @@
       "!src/components/index.js",
       "!src/pages/index.js",
       "!src/pages/*/index.js",
-      "!src/pages/*/*.style.js",
       "!src/reducers/index.js",
-      "**/*.style.{js,jsx}"
+      "!**/*.style.{js,jsx}"
     ],
     "moduleNameMapper": {
       ".*\\.(css|scss|sass|less)$": "<rootDir>/config/jest/styleMock.js",
       ".*\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/config/jest/assetMock.js"
     },
-    "moduleDirectories" : [
+    "moduleDirectories": [
       "node_modules",
       "src"
     ]
@@ -134,17 +133,20 @@
     "hpp": "^0.2.2",
     "html-minifier": "^4.0.0",
     "lodash": "^4.17.15",
+    "moment": "^2.24.0",
     "morgan": "^1.9.1",
     "node-sass": "^4.12.0",
     "normalize.css": "^8.0.1",
     "path": "^0.12.7",
     "pluralize": "^8.0.0",
     "prop-types": "^15.7.2",
+    "query-string": "^6.8.3",
     "react": "^16.9.0",
     "react-dev-utils": "^9.0.4",
     "react-dom": "npm:@hot-loader/react-dom",
     "react-helmet": "^5.2.1",
     "react-hot-loader": "^4.12.13",
+    "react-phone-number-input": "^2.3.23",
     "react-redux": "^7.1.1",
     "react-router": "^5.0.1",
     "react-router-config": "^5.0.1",
@@ -157,6 +159,7 @@
     "styled-components": "^4.3.2",
     "styled-theme": "^0.3.3",
     "universal-cookie": "^4.0.2",
+    "validator": "^11.1.0",
     "webpack": "^4.40.2",
     "yup": "^0.27.0"
   },
